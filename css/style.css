@@ -113,6 +113,48 @@ header h1 span {
   color: #ddd;
 }
 
+/**
+ * Box effect
+ */
+.box--effect {
+  position: relative;
+}
+
+.box--effect h2 {
+  text-align: center;
+  margin-top: 10%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,40px,0);
+  transform: translate3d(0,40px,0);
+  height: 3em;
+}
+.box--effect:hover h2 {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.box--effect p {
+  margin: 0 0;
+  padding: 1em;
+  border-top: 4px solid #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,20px,0) scale(1.1);
+  transform: translate3d(0,20px,0) scale(1.1);
+  margin-bottom: 1em;
+}
+
+.box--effect:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+
+/**
+ * Responsive behaviour
+ */
 @media screen and (max-width: 25em) {
   .header {
     font-size: 75%;
