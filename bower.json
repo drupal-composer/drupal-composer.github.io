@@ -1,0 +1,20 @@
+{
+  "name": "drupal-composer.org",
+  "version": "0.0.0",
+  "authors": [
+    "Johannes Haseitl <johannes@undpaul.de>"
+  ],
+  "license": "GPLv2+",
+  "homepage": "http://drupal-composer.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
