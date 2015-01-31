@@ -62,6 +62,10 @@ header h1 span {
   font-size: 45%;
 }
 
+footer {
+  text-align: center;
+  font-size: 70%;
+}
 
 /**
  * Layout
@@ -112,6 +116,29 @@ header h1 span {
 .box a:focus {
   color: #ddd;
 }
+.box h2 em {
+  font-style: normal;
+  color: #fff;
+}
+.box p em {
+  color: #ddd;
+}
+
+.box figure {
+  position: absolute;
+  left: 0;
+  margin: 8em 0 0 0;
+  padding: 0;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+.box img {
+  width: 8em;
+}
+.box.github img {
+  width: 10em;
+}
 
 /**
  * Box effect
@@ -119,14 +146,26 @@ header h1 span {
 .box--effect {
   position: relative;
 }
+.box--effect figure {
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0) scale(1);
+  transform: translate3d(0,0,0) scale(1);
+}
+.box--effect:hover figure {
+  opacity: 0;
+  -webkit-transform: translate3d(0,-20px,0) scale(0.8);
+  transform: translate3d(0,-20px,0) scale(0.8);
+}
 
 .box--effect h2 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 1em;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
-  -webkit-transform: translate3d(0,40px,0);
-  transform: translate3d(0,40px,0);
+  -webkit-transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);
   height: 3em;
 }
 .box--effect:hover h2 {
@@ -173,6 +212,11 @@ header h1 span {
     margin: 10px auto;
     padding-bottom: 0;
     width: 100%;
+  }
+
+  /* Currently disable for mobile unitl it looks nice. */
+  figure {
+    display: none;
   }
 }
 

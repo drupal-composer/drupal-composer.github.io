@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="94px" viewBox="0 0 88 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Bulb</title>
+    <desc>Created by Félix Péault from the Noun Project
+      - This icon is licensed as Creative Commons – Attribution (CC BY 3.0)
+      http://thenounproject.com/term/light-bulb/23392/</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="noun_23392_cc" sketch:type="MSLayerGroup">
+            <path d="M44,24.639 C32.241,24.639 22.709,34.171 22.709,45.93 C22.709,50.165 23.946,54.111 26.077,57.427 L26.077,57.427 L35.448,74.688 L53.302,74.688 L61.923,57.427 C64.054,54.111 65.291,50.165 65.291,45.93 C65.291,34.171 55.759,24.639 44,24.639 L44,24.639 L44,24.639 Z" id="Path" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M44,27.234 C54.309,27.234 62.696,35.621 62.696,45.93 C62.696,49.525 61.674,53.015 59.74,56.023 L59.664,56.141 L59.601,56.267 L51.697,72.092 L36.992,72.092 L28.358,56.188 L28.312,56.104 L28.26,56.023 C26.326,53.015 25.304,49.524 25.304,45.93 C25.304,35.621 33.691,27.234 44,27.234 L44,27.234 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M33.644,44.372 L31.049,44.372 C31.049,38.09 36.16,32.978 42.443,32.978 L42.443,35.573 C37.591,35.574 33.644,39.521 33.644,44.372 L33.644,44.372 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-path" fill="#000000" sketch:type="MSShapeGroup" x="35.448" y="76.187" width="17.926" height="3.279"></rect>
+            <rect id="Rectangle-path" fill="#000000" sketch:type="MSShapeGroup" x="35.448" y="80.966" width="17.926" height="3.279"></rect>
+            <rect id="Rectangle-path" fill="#000000" sketch:type="MSShapeGroup" x="35.448" y="85.744" width="17.926" height="3.279"></rect>
+            <rect id="Rectangle-path" fill="#000000" sketch:type="MSShapeGroup" x="39.161" y="90.557" width="10.5" height="3.279"></rect>
+            <path d="M45.564,13.692 L45.564,0.191 C45.044,0.175 44.523,0.164 44,0.164 C43.477,0.164 42.956,0.175 42.436,0.191 L42.436,13.692 L45.564,13.692 L45.564,13.692 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M68.69,24.364 L78.015,15.039 C77.311,14.269 76.582,13.523 75.831,12.799 L66.478,22.152 L68.69,24.364 L68.69,24.364 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M74.791,48.406 L87.345,48.406 C87.386,47.586 87.407,46.76 87.407,45.93 C87.407,45.712 87.402,45.495 87.399,45.278 L74.791,45.278 L74.791,48.406 L74.791,48.406 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M13.209,45.278 L0.602,45.278 C0.599,45.495 0.594,45.712 0.594,45.93 C0.594,46.76 0.615,47.586 0.656,48.406 L13.21,48.406 L13.209,45.278 L13.209,45.278 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M21.522,22.152 L12.169,12.799 C11.418,13.523 10.689,14.269 9.985,15.039 L19.31,24.364 L21.522,22.152 L21.522,22.152 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
