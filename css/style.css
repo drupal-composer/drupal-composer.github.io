@@ -134,10 +134,10 @@ footer {
   text-align: center;
 }
 .box img {
-  width: 8em;
+  height: 8em;
 }
-.box.github img {
-  width: 10em;
+.box--effect p {
+  min-height: 8em;
 }
 
 /**
@@ -215,8 +215,11 @@ footer {
   }
 
   /* Currently disable for mobile unitl it looks nice. */
-  figure {
-    display: none;
+  .box img {
+    height: 4em;
+  }
+  .box--effect p {
+    min-height: 4em;
   }
 }
 
