@@ -93,6 +93,17 @@ footer {
 }
 
 /**
+ * Touchfocus
+ */
+.touchfocus a {
+  display: none !important;
+}
+.touchfocus:focus a,
+.touchfocus:hover a{
+  display: block !important;
+}
+
+/**
  * Box styling
  */
 .box {
@@ -153,7 +164,8 @@ footer {
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
 }
-.box--effect:hover figure {
+.box--effect:hover figure,
+.box--effect:focus figure {
   opacity: 0;
   -webkit-transform: translate3d(0,-20px,0) scale(0.8);
   transform: translate3d(0,-20px,0) scale(0.8);
@@ -168,7 +180,8 @@ footer {
   transform: translate3d(0,20px,0);
   height: 3em;
 }
-.box--effect:hover h2 {
+.box--effect:hover h2,
+.box--effect:focus h2{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
@@ -185,7 +198,8 @@ footer {
   margin-bottom: 1em;
 }
 
-.box--effect:hover p {
+.box--effect:hover p,
+.box--effect:focus p{
   opacity: 1;
   -webkit-transform: translate3d(0,0,0) scale(1);
   transform: translate3d(0,0,0) scale(1);
