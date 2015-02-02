@@ -192,6 +192,30 @@ footer {
 }
 
 /**
+ * Projects
+ */
+.box--projects ul {
+  margin: 1em 0;
+  padding: 0;
+}
+.box--projects ul li {
+  display: inline-block;
+  margin: 0;
+}
+.box--projects ul li a {
+  border: 2px solid #fff;
+  padding: 0.5em;
+  margin-right: 0.25em;
+  line-height: 3em;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.box--projects ul li a:hover {
+  color: #2f3238;
+  background: #fff;
+}
+
+/**
  * Responsive behaviour
  */
 @media screen and (max-width: 25em) {
@@ -201,7 +225,6 @@ footer {
 
   .content {
     padding: 0 10px;
-    text-align: center;
   }
 }
 
