@@ -16,3 +16,4 @@ nbproject
 # Tools
 .svn
 .sass-cache
+node_modules
